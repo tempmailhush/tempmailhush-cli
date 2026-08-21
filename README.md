@@ -1,8 +1,8 @@
 # tempmailhush-cli
 
-AI-agent friendly CLI for the TempMailHush Premium API.
+Free, open-source, AI Agent-friendly temporary email CLI for TempMailHush. Learn more at https://tempmailhush.com.
 
-The CLI is designed for automation first: stdout is JSON by default, errors are JSON on stderr, and exit codes are meaningful for agents, CI, and shell scripts.
+It can be used for automated email testing, verification code receiving, registration flow testing, CI/CD testing, one-time inboxes for crawlers or data collection, and privacy protection. The CLI is designed for automation first: stdout is JSON by default, errors are JSON on stderr, and exit codes are meaningful for agents, CI, and shell scripts.
 
 ## Install
 
