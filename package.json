@@ -16,8 +16,7 @@
     "build": "tsup src/index.ts --format esm --clean",
     "dev": "tsx src/index.ts",
     "test": "node --import tsx --test tests/*.test.ts",
-    "typecheck": "tsc --noEmit",
-    "prepare": "npm run build"
+    "typecheck": "tsc --noEmit"
   },
   "engines": {
     "node": ">=20"
