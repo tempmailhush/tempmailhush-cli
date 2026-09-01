@@ -9,9 +9,15 @@ Use it for automated email testing, verification code receiving, registration fl
 ### Persistent Install
 
 ```bash
-npm install -g github:tempmailhush/tempmailhush-cli
+npm install -g tempmailhush
 export TEMPMAILHUSH_API_KEY=sk-xxx
 tmh mailbox create
+```
+
+Install directly from GitHub if you need the latest source from `main`:
+
+```bash
+npm install -g github:tempmailhush/tempmailhush-cli
 ```
 
 ### Agentic One-Shot
@@ -241,4 +247,3 @@ Timeout result uses exit code `3`:
 | `2` | Missing or invalid API key. |
 | `3` | Wait timeout. |
 | `4` | Verification code not found. |
-
