@@ -14,8 +14,8 @@ const program = new Command();
 
 program
   .name("tmh")
-  .description("AI-agent friendly CLI for TempMailHush Premium API")
-  .version("0.1.0")
+  .description("A free, open-source CLI tool for temporary email addresses, designed for use by AI agents.")
+  .version("0.1.1")
   .option("--api-key <key>", "TempMailHush API key")
   .option("--base-url <url>", "TempMailHush API base URL")
   .option("--pretty", "Print human-readable output instead of JSON")

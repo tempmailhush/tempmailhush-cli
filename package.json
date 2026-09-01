@@ -1,11 +1,11 @@
 {
   "name": "tempmailhush",
-  "version": "0.1.0",
-  "description": "AI-agent friendly CLI for TempMailHush Premium API.",
+  "version": "0.1.1",
+  "description": "A free, open-source CLI tool for temporary email addresses, designed for use by AI agents.",
   "type": "module",
   "bin": {
-    "tmh": "./dist/index.js",
-    "tempmailhush": "./dist/index.js"
+    "tmh": "dist/index.js",
+    "tempmailhush": "dist/index.js"
   },
   "files": [
     "dist",
